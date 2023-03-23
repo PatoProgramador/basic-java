@@ -5,7 +5,7 @@ public class PruebaFunciones {
         // ambito public: desde cualquier lugar
         Funciones.holaMundo();
         // ambito protected: solo las clases hijas o del mismo paquete pueden acceder
-        Funciones.holaMundo2("Pato de otra clase");
+        Funciones.holaMundo("Pato de otra clase");
         // private: solo desde la misma clase
         int number1 = sum(2,2);
         System.out.println(number1);

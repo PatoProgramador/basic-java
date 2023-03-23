@@ -5,7 +5,9 @@ public class Funciones {
         // sin parametros
         holaMundo();
         // con parametros
-        holaMundo2("Pato");
+        holaMundo("Pato");
+        holaMundo("Pato", "Patoski"); //invocacion de la funcion sobrecargada
+        holaMundo(2); // funcion sobrecargada pero con tipo de parametro diferente
         // Devolviendo un tipo de dato especifico
         String hola = devolverHolaMundo();
         System.out.println(hola);
@@ -14,9 +16,17 @@ public class Funciones {
     public static void holaMundo() {
         System.out.println("Hola mundo desde un método");
     }
-    // Funcion con parametros
-    protected static void holaMundo2(String name) {
+    // Funcion con parametros, ademas, sobrecarga de la primera
+    protected static void holaMundo(String name) {
         System.out.println("Hola, " + name);
+    }
+    // Funcion con dos parametros, sobrecarga de la primera con los mismos tipos de datos
+    protected static void holaMundo(String name, String lastName) {
+        System.out.println("Hola " + name + " " + lastName);
+    }
+    // Primera funcion sobrecargada pero con tipo de dato por argumento diferente
+    protected static void holaMundo(int number) {
+        System.out.println("El numero es: " + number);
     }
     // Devolviendo un tipo de dato especifico
     private static String devolverHolaMundo() {
