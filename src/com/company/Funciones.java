@@ -11,11 +11,11 @@ public class Funciones {
         System.out.println(hola);
     }
     // Funcion sin parametros
-    private static void holaMundo() {
+    public static void holaMundo() {
         System.out.println("Hola mundo desde un método");
     }
     // Funcion con parametros
-    private static void holaMundo2(String name) {
+    protected static void holaMundo2(String name) {
         System.out.println("Hola, " + name);
     }
     // Devolviendo un tipo de dato especifico
