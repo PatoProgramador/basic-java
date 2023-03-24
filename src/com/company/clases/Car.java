@@ -1,4 +1,4 @@
-package com.company;
+package com.company.clases;
 
 public class Car {
 

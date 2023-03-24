@@ -1,4 +1,4 @@
-package com.company;
+package com.company.controlStructures;
 
 public class IfElse {
     public static void main(String[] args) {

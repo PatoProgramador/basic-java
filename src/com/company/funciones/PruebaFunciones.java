@@ -1,4 +1,6 @@
-package com.company;
+package com.company.funciones;
+
+import com.company.funciones.Funciones;
 
 public class PruebaFunciones {
     public static void main(String[] args) {

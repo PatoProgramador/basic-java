@@ -1,4 +1,4 @@
-package com.company;
+package com.company.controlStructures;
 
 public class SwitchCase {
     public static void main(String[] args) {
