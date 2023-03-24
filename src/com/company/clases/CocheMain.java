@@ -27,5 +27,8 @@ public class CocheMain {
                 "romeo", 1550.5, 4.99, "ejemplito");
 
         System.out.println(cocheElectrico2);
+
+        cocheElectrico2.acelerar(50);
+        System.out.println(cocheElectrico2);
     }
 }
