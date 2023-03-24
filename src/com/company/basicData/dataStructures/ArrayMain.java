@@ -1,4 +1,4 @@
-package com.company.basicData.dataStructures.arrays;
+package com.company.basicData.dataStructures;
 import java.util.Arrays;
 
 public class ArrayMain {
