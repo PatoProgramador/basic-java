@@ -1,6 +1,6 @@
 package com.company.clases;
 
-public class Car {
+public abstract class Car {
 
     // atributos
     String color;

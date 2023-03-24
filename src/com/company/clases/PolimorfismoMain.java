@@ -2,7 +2,6 @@ package com.company.clases;
 
 public class PolimorfismoMain {
     public static void main(String[] args) {
-        Car coche1 = new Car();
 
         ElectricCar coche2 = new ElectricCar();
 
