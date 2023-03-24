@@ -22,5 +22,10 @@ public class CocheMain {
         cocheElectrico.modelo = "civic";
 
         System.out.println(cocheElectrico);
+
+        ElectricCar cocheElectrico2 = new ElectricCar("rojo", "alfa",
+                "romeo", 1550.5, 4.99, "ejemplito");
+
+        System.out.println(cocheElectrico2);
     }
 }

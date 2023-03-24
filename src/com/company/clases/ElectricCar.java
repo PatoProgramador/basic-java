@@ -10,6 +10,11 @@ public class ElectricCar extends Car{
         this.motorElectrico = motorElectrico;
     }
 
+    public ElectricCar(String color, String fabricante, String modelo, Double peso, Double largo, String motorElectrico){
+        super(color, fabricante, modelo, peso, largo);
+        this.motorElectrico = motorElectrico;
+    }
+
     @Override
     public String toString() {
         return "ElectricCar{" +
